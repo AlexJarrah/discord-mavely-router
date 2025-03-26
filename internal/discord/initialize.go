@@ -3,9 +3,9 @@ package discord
 import (
 	"fmt"
 
-	"gitlab.com/AlexJarrah/discord-mavely-router/internal"
-
 	"github.com/bwmarrin/discordgo"
+
+	"gitlab.com/AlexJarrah/discord-mavely-router/internal"
 )
 
 // Initiates the Discord monitoring via the specified token
@@ -28,7 +28,7 @@ func Initialize() error {
 	}
 	defer dg.Close()
 
-	// Wait for signals to exit
+	// Wait for exit signal
 	select {}
 }
 
