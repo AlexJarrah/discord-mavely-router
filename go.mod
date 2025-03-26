@@ -1,6 +1,6 @@
 module gitlab.com/AlexJarrah/discord-mavely-router
 
-go 1.23.6
+go 1.23.7
 
 require (
 	github.com/bwmarrin/discordgo v0.28.1
